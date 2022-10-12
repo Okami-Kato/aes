@@ -1,0 +1,36 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/notepad?reWriteBatchedInserts=true
+    username: ${POSTGRESQL_USER:root}
+    password: ${POSTGRESQL_PASSWORD:root}
+  sql:
+    init:
+      platform: postgres
+  jpa:
+    database: postgresql
+    show-sql: false
+    properties:
+      hibernate:
+        show_sql: false
+        id.new_generator_mappings: true
+        generate_statistics: false
+        jdbc:
+          time_zone: UTC
+          lob.non_contextual_creation: true
+          batch_size: 50
+          batch_versioned_data: true
+        cache:
+          use_second_level_cache: false
+          region.factory_class: com.hazelcast.hibernate.HazelcastCacheRegionFactory
+        bytecode:
+          provider: cglib
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+  liquibase:
+    enabled: true
+    change-log: classpath:liquibase/master.xml
+server:
+  error:
+    include-message: always
+  port: 8080

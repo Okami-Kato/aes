@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.9.xsd">
+
+    <changeSet id="09-10-2022_17:57" author="Makariy_Barkan@epam.com">
+        <createTable tableName="key_store">
+            <column name="user_id" type="int">
+                <constraints unique="true" nullable="false" primaryKey="true"/>
+            </column>
+            <column name="key" type="binary">
+                <constraints nullable="false"/>
+            </column>
+            <column name="initialization_vector" type="binary">
+                <constraints nullable="false"/>
+            </column>
+            <column name="expiration_timestamp" type="timestamp">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+        <addForeignKeyConstraint baseTableName="key_store" baseColumnNames="user_id"
+                                 constraintName="fk_key_store_user_account"
+                                 referencedTableName="user_account"
+                                 referencedColumnNames="id"/>
+    </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="77243fa9-7cd1-433e-a8b5-a669ff05b2bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/lombok.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/ClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/FxApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/client/NoteClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/client/SecurityClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/client/dto/SessionKeyRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/client/dto/TextRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/client/exception/ServerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/client/template/HttpComponentsClientHttpRequestFactoryBasicAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/client/template/LoggingInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/client/template/RestTemplateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/client/template/error/RestTemplateErrorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/config/ClientConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/config/UserProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/controller/FxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/domain/SessionKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/domain/UserCredentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/listener/StageInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/security/exception/SessionKeyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/security/ks/InMemoryKeyStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/security/service/SecurityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/security/service/impl/SecurityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/service/NoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/service/dto/NoteDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/okami/service/impl/NoteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/lombok.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/ServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/controller/NoteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/controller/dto/TextRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/domain/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/repository/NoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/security/config/AuthEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/security/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/security/controller/SecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/security/domain/UserKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/security/dto/SessionKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/security/dto/SessionKeyRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/security/repository/UserKeyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/security/service/SecurityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/security/service/impl/SecurityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/service/NoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/service/dto/NoteDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/service/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/service/exception/AlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/service/exception/NotAuthenticatedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/service/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/service/impl/NoteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/service/mapper/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/okami/server/service/mapper/impl/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/liquibase/changelog/08-10-2022_init.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/liquibase/changelog/09-10-2022_add_key_store.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/liquibase/master.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/client">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/server">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="server" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="com.haulmont.jpb.JpaLiquibaseChangeLog" />
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FttDWuDVlIP1OERRU3vAtKrSrW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/KBRS/Lab2/client&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d95388885a264255662a88d87d390905&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\KBRS\Lab2\client" />
+      <recent name="D:\IdeaProjects\KBRS\Lab2\server\src\main\resources" />
+      <recent name="D:\IdeaProjects\KBRS\Lab2\server\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.okami.client.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ClientApplication">
+    <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.okami.ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.okami.server.ServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.okami.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77243fa9-7cd1-433e-a8b5-a669ff05b2bb" name="Changes" comment="" />
+      <created>1665323089993</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665323089993</updated>
+      <workItem from="1665323091185" duration="7008000" />
+      <workItem from="1665333154547" duration="1726000" />
+      <workItem from="1665412704336" duration="14426000" />
+      <workItem from="1665508002639" duration="4149000" />
+      <workItem from="1665513149881" duration="9879000" />
+      <workItem from="1665577929890" duration="5190000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

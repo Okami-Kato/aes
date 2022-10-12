@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+note-server:
+  url: http://localhost:8080
+
+user:
+  username: root
+  password: root
